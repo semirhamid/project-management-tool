@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Update" ALTER COLUMN "version" DROP NOT NULL,
+ALTER COLUMN "assets" DROP NOT NULL;

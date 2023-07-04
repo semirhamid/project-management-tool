@@ -1,0 +1,37 @@
+{
+  "name": "node-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "ts-node src/index.ts",
+    "build":"tsc -p tsconfig.json",
+    "start":"node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.2",
+    "@types/supertest": "^2.0.12",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jest": "^29.5.0",
+    "jsonwebtoken": "^9.0.0",
+    "lodash.merge": "^4.6.2",
+    "morgan": "^1.10.0",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.1"
+  },
+  "devDependencies": {
+    "@prisma/client": "^4.16.2",
+    "@types/node": "^20.3.2",
+    "prisma": "^4.16.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
