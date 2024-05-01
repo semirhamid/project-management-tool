@@ -19,7 +19,7 @@ Welcome to the Project Management Tool! This is a web-based application built wi
    ```
 2. Navigate into the project directory:
    ```sh
-   cd project-management-nodejs
+   cd project-management-tool
    ```
 3. Install dependencies:
    ```sh
